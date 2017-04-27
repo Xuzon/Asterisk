@@ -13,7 +13,5 @@ originalString=${final[0]}
 replaceString=","
 resultString=${originalString/./$replaceString}
 #convert to two decimal result
-printf "%0.2f\n" $resultString
+echo ${resultString}
 #return ${final[0]}
-
-
